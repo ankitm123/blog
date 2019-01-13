@@ -45,7 +45,8 @@ sub   4096R/D50AF136 2016-10-05
 sub   4096R/88B63E1E 2019-01-02 [expires: 2020-02-02]
 sub   4096R/69475BAA 2019-01-11 [expires: 2020-02-02]
 ```
- * A very detailed explanation is found in the secureApt section of the ubuntu community help page: https://help.ubuntu.com/community/SecureApt. A gist 
+ * A very detailed explanation is found in the secureApt section of the ubuntu community help [page]
+ (https://help.ubuntu.com/community/SecureApt). A gist 
  of this for our purpose is this: 
  ```
  A private key is used to sign the package, and we use the public key to verify if the package 
