@@ -31,10 +31,10 @@ function Bio() {
               }}
             />
             <p>
-              This is the personal blog of <strong>{author}</strong> who lives and works in Malden, MA as a devops engineer at Good Dog Labs.
+              Welcome to the personal blog of <strong>{author}</strong>. I live and work in Malden, MA as a DevOps engineer at Good Dog Labs.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+                Follow me on twitter
               </a>
             </p>
           </div>

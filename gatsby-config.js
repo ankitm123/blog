@@ -3,7 +3,7 @@ module.exports = {
     title: `The bald one`,
     author: `Ankit D Mohapatra`,
     description: `Personal blog`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://ankit-mohapatra.netlify.com/`,
     social: {
       twitter: `ankitmoh123`,
     },
