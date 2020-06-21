@@ -9,7 +9,7 @@ function Bio() {
     <StaticQuery
       query={bioQuery}
       render={data => {
-        const { author, social } = data.site.siteMetadata
+        const { author, social, company } = data.site.siteMetadata
         return (
           <div
             style={{
@@ -31,7 +31,7 @@ function Bio() {
               }}
             />
             <p>
-              Welcome to the personal blog of <strong>{author}</strong>. I live and work in Malden, MA as a DevOps engineer at Good Dog Labs.
+              Welcome to the personal blog of <strong>{author}</strong>. I live and work in Malden, MA as a DevOps engineer at {company}.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
                 Follow me on twitter
@@ -59,6 +59,7 @@ const bioQuery = graphql`
         social {
           twitter
         }
+        company
       }
     }
   }

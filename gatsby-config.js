@@ -3,6 +3,7 @@ module.exports = {
     title: `The bald one`,
     author: `Ankit D Mohapatra`,
     description: `Personal blog`,
+    company: `SessionM, a Mastercard company`,
     siteUrl: `https://ankit-mohapatra.netlify.com/`,
     social: {
       twitter: `ankitmoh123`,
