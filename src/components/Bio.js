@@ -31,8 +31,8 @@ function Bio() {
               }}
             />
             <p>
-              Welcome to the personal blog of <strong>{author}</strong>. I live and work in Malden, MA as a DevOps engineer at {company}.
-              {` `}
+                Welcome to the personal blog of <strong>{author}</strong>. I work as a DevOps engineer at {company}.
+                In my free time, I work on open source <a href="https://jenkins-x.io/"> JenkinsX </a>. <br />
               <a href={`https://twitter.com/${social.twitter}`}>
                 Follow me on twitter
               </a>

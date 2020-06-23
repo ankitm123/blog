@@ -4,7 +4,7 @@ date: '2019-01-13'
 ---
 
 Noticed this line while using yarn to install redux-logger
-```
+```bash:clipboard=false
 warning Your current version of Yarn is out of date. The latest version is "1.13.0", while you're on "1.12.3"
 info To upgrade, run the following command: 
 $ sudo apt-get update && sudo apt-get install yarn 
