@@ -1,6 +1,6 @@
 ---
 title: Debugging JenkinsX
-tags: ["jenkinsX", "debug"] 
+tags: ["jenkinsX", "debug", "v2"]
 date: '2020-06-22'
 ---
 * Use `jx version --short` to get the version of the binary.
