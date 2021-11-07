@@ -87,7 +87,7 @@ Once the `secret-infra` namespace has been created, we can configure the kuberne
 
 The instructions are taken from [here](https://learn.hashicorp.com/tutorials/vault/kubernetes-external-vault?in=vault/kubernetes#configure-kubernetes-authentication).
 
-Configure the vault kubernetes backend:
+Configure the vault kubernetes backend (remember to run this in a terminal where you have set the `VAULT_ADDR`):
 
 ```bash
 VAULT_HELM_SECRET_NAME=$(kubectl -n secret-infra get secrets --output=json | jq -r '.items[].metadata | select(.name|startswith("kubernetes-external-secrets-token-")).name')
