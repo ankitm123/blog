@@ -3,14 +3,13 @@ module.exports = {
     title: `The bald one`,
     author: `Ankit D Mohapatra`,
     description: `Personal blog`,
-    company: `Dexai Robotics`,
+    company: `Trias Technology Group`,
     siteUrl: `https://ankit-mohapatra.netlify.com/`,
     social: {
       twitter: `ankitmoh123`,
     },
   },
   plugins: [
-    'gatsby-plugin-dark-mode',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -51,7 +50,7 @@ module.exports = {
               // you may use this to prevent Prism from re-processing syntax.
               // This is an uncommon use-case though;
               // If you're unsure, it's best to use the default value.
-              classPrefix: "language-",
+              classPrefix: 'language-',
               // This is used to allow setting a language for inline code
               // (i.e. single backticks) by creating a separator.
               // This separator is a string and will do no white-space
@@ -84,7 +83,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -97,8 +95,6 @@ module.exports = {
         icon: `content/assets/gatsby-icon.png`,
       },
     },
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {
