@@ -8,7 +8,7 @@ function Bio() {
   return (
     <StaticQuery
       query={bioQuery}
-      render={data => {
+      render={(data) => {
         const { author, social, company } = data.site.siteMetadata
         return (
           <div
@@ -31,8 +31,9 @@ function Bio() {
               }}
             />
             <p>
-                Welcome to the personal blog of <strong>{author}</strong>. I work as a DevOps engineer at {company}.
-                In my free time, I work on open source <a href="https://jenkins-x.io/"> JenkinsX </a>. <br />
+              Welcome to the personal blog of <strong>{author}</strong>.
+              <br />I am the CTO of {company}.
+              <br />
               <a href={`https://twitter.com/${social.twitter}`}>
                 Follow me on twitter
               </a>
